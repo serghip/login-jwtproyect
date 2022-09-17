@@ -12,7 +12,6 @@
     "react",
     "javascript"
   ],
-  "author": "Oscar Barajas <oscar@platzi.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.15.0",
