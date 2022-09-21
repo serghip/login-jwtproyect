@@ -13,7 +13,6 @@ const App = () => {
 	return (
 		<AppContext.Provider>
 			<BrowserRouter>
-				<Layout>
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/primero" element={<Primero />} />
@@ -21,7 +20,6 @@ const App = () => {
 						<Route path="/tercero" element={<Tercero />} />
 						<Route path="*" element={<NotFound />} />
 					</Routes>
-				</Layout>
 			</BrowserRouter>
 		</AppContext.Provider>
 	);

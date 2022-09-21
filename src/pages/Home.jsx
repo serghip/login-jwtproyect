@@ -1,12 +1,12 @@
 import React from 'react';
 import '@styles/Home.scss';
+import LoginBox from '@containers/LoginBox'
 
 const Home = () => {
 	return (
 		<div className='Home'>
-			<h1>Página principal</h1>
-		</div>
-		
+			<LoginBox/>
+		</div>	
 	);
 }
 
